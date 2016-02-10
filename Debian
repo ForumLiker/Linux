@@ -1,0 +1,6 @@
+Для установки более новых версий пакетов в Debian необходимо подключить нестабильные репозитории.
+
+sudo /etc/apt/sources.list добавляем в конец файла
+
+deb http://http.us.debian.org/debian unstable main
+deb-src http://http.us.debian.org/debian unstable main
